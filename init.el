@@ -1,6 +1,6 @@
 (setq inhibit-startup-message t)
 
-(load-theme 'doom-dracula t)
+;;(load-theme 'doom-dracula t)
 
 (scroll-bar-mode -1)        ; Disable visible scrollbar
 (tool-bar-mode -1)          ; Disable the toolbar
@@ -16,7 +16,7 @@
 ;; Set up the visible bell (flash when you reach the end of a buffer)
 (setq visible-bell t)
 
-(set-face-attribute 'default nil :font "SFMono" :height 120) ;;set fonts
+;;(set-face-attribute 'default nil :font "SFMono" :height 120) ;;set fonts
 
 
 ;; Make ESC quit prompts (so if you enter a command wrong just spam 'esc'
@@ -776,6 +776,5 @@
 (indent-guide-global-mode)
 
 ;; LATEX STUFF-------------------------------------------------------
-(use-package tex
-  :ensure auctex)
+(use-package tex)
 
